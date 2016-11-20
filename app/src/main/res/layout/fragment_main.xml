@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.awitcha.pinchtozoomimage.MainFragment">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image"
+        android:layout_centerVertical="true"
+        android:background="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+</RelativeLayout>
