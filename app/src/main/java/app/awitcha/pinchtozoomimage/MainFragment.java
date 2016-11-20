@@ -62,7 +62,7 @@ public class MainFragment extends Fragment {
         mImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), ImageActivity.class);
+                Intent intent = new Intent(getActivity(), Image2Activity.class);
                 intent.putExtra("image", image);
                 startActivity(intent);
             }
